@@ -7,7 +7,7 @@ Enjoy! ..ahh nope! I mean.. Thanks for your review!
 
 **All pull request is accepted!**
 
-# How to run this repo
+# 😎 How to run this repo
 
 ```
 git clone https://github.com/Ryan-Willpower/portfolio-site.git
