@@ -5,5 +5,6 @@ export default createGlobalStyle`
   body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
+    width: 100%;
   }
 `
