@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 const Title = styled.div`
   grid-area: title;
@@ -12,6 +13,13 @@ const Title = styled.div`
   align-items: center;
   padding-left: 2vw;
   border-radius: 0 10px 10px 0;
+
+  ${media.lessThan("medium")`
+    grid-area: title;
+    grid-column: auto;
+    width: 80vw;
+    font-size: 5vw;
+  `}
 `
 
 export default ({text}) => (

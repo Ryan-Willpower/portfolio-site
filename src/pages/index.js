@@ -19,6 +19,7 @@ const Main = styled.div`
   'info info';
 
   ${media.lessThan("medium")`
+   grid-template-columns: 1fr;
     grid-template-areas: 'pic'
     'name'
     'title'

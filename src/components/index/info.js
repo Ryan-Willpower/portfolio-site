@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import media from 'styled-media-query'
 //
 import PersonInfo from './person_info'
 import Skill from './skill'
@@ -21,9 +22,15 @@ const Info = styled.div`
 
   & img {
     min-width: 100px;
-    max-width: 200px;
+    max-width: 170px;
     margin: 20px;
   }
+
+  ${media.lessThan("medium")`
+    grid-area: info;
+    grid-column: auto;
+    grid-row: auto;
+  `}
 `
 
 export default () => (
