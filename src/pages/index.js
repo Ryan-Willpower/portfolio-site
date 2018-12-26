@@ -29,7 +29,6 @@ const Main = styled.div`
 
 export default () => (
   <Main>
-    {console.log(__dirname)}
     <Name
       fname="Ryan"
       lname="Willpower" />
