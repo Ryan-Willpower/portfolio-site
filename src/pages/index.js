@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import GlobalLayout from '../components/global-layout'
 import media from 'styled-media-query'
 //
+import SEO from '../components/seo'
 import Name from '../components/index/name'
 import Pic from '../components/index/pic'
 import Title from '../components/index/title'
@@ -29,6 +30,7 @@ const Main = styled.div`
 
 export default () => (
   <Main>
+    <SEO />
     <Name
       fname="Ryan"
       lname="Willpower" />
