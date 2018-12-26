@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import GlobalLayout from '../components/global-layout'
+import media from 'styled-media-query'
 //
 import Name from '../components/index/name'
 import Pic from '../components/index/pic'
 import Title from '../components/index/title'
-import Skill from '../components/index/skill'
+import Info from '../components/index/info'
 
 const Main = styled.div`
   display: grid;
@@ -15,17 +16,25 @@ const Main = styled.div`
   'name pic'
   'title .'
   '. .'
-  'skill skill';
+  'info info';
+
+  ${media.lessThan("medium")`
+    grid-template-areas: 'pic'
+    'name'
+    'title'
+    'info';
+  `}
 `
 
 export default () => (
   <Main>
+    {console.log(__dirname)}
     <Name
       fname="Ryan"
       lname="Willpower" />
     <Title text="fullstack developer"/>
     <Pic />
-    <Skill />
+    <Info />
     <GlobalLayout />
   </Main>
 )
