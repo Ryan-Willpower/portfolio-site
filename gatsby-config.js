@@ -30,9 +30,9 @@ module.exports = {
         name: `Ryan Willpower's portfolio`,
         short_name: `portfolio`,
         start_url: `/`,
-        background_color: `#696969`,
+        background_color: `#FFFFFF`,
         theme_color: `#696969`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/images/willpower-logo.png`, // This path is relative to the root of the site.
       },
     },
