@@ -32,7 +32,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#696969`,
-        display: `standalone`,
+        display: `fullscreen`,
         icon: `src/images/willpower-logo.png`, // This path is relative to the root of the site.
       },
     },
