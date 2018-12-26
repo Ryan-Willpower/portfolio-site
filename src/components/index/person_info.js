@@ -5,7 +5,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
-        introduction: markdownRemark(frontmatter: {title: {eq: "💼 skill"}}) {
+        introduction: markdownRemark(frontmatter: {title: {eq: "😎 introduction"}}) {
           frontmatter {
             title
           }
